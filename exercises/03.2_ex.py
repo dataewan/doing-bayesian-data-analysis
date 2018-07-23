@@ -31,5 +31,5 @@ ax.set_title("Normal probability density")
 ax.text(0.8, 1.5, '$\Delta x = {}$'.format(dx))
 ax.text(0.2, 1.5, '$\sum_x \Delta x p(x) = {:3f}$'.format(area))
 
-fig.savefig("figures/03.2_ex.png")
+fig.savefig("../figures/03.2_ex.png")
 plt.close()
